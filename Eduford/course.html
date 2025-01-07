@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f4e47a6f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="website.html"> <img src="images/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Courses</h1>
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>B.PHARMA,D.PHARMA,BBA,MBA,BSC,MSC,B.TECH,BSC,MBBS.</p>
+    
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    You will get an introduction to research tools, analysing an essay question, developing your argument, searching for credible sources and referencing, as well as learning more about the fundamentals like planning an essay structure. 
+                </p>
+            </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                <p>
+                    An undergraduate degree apprenticeship is a Bachelor's degree course, designed to give you skills that will be in high demand in the near future. It's a part-time course that you study alongside your current job, paid for by your employer and the government.
+                </p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>
+                        If you ve got a Bachelors degree and want to continue your studies, a Masters degree is the logical next step. Pursue a Masters degree to enhance your skills and employability and to become an expert in your subject.
+                    </p>
+                </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The facilities for advanced education must be evened out and multiplied.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class library</h3>
+                <p>
+                 A library is a collection of books, and possibly other materials and media, that is accessible for use by its members and members of allied institutions.  
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>
+                Public playground equipment installed in the play areas of parks, schools, childcare facilities, institutions, multiple family dwellings, restaurants, resorts,   
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>
+                cafeteria, self-service restaurant in which customers select various dishes from an open-counter display. The food is usually placed on a tray.
+                </p>
+            </div>
+        </div>
+    </section>
+
+     <!-- footer -->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>We make lives better by producing leaders of society and equipping our people with leadership qualities so they can serve our communities at every level. <br>A well-designed website can serve as the hub of your nonprofit's online presence, helping you educate new supporters.</p>
+
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+     </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

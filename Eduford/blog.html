@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f4e47a6f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="website.html"> <img src="images/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    
+       <!--blog page content--> 
+
+       <section class="blog-content">
+        
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>
+                We really appreciate the generous support has shown towards our charitable trust. We can never repay this help. We are proud to have such human beings in society.A certificate without knowledge is like a gun without bullets in your hand. 
+                </p>
+                <br>
+                <p>
+                You are educated. Your certification is in your degree. You may think of it as the ticket to the good life. Let me ask you to think of an alternative. Think of it as your ticket to change the world.A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.
+                </p>
+                <br>
+                <p>
+                 I used all diligence to arrive at London and therefore I now gave my crew a certificate under my hand, of my free and willing return, without persuasion or force by any one or more of them.Nowhere on your birth certificate did it say life would be fair
+                </p>
+                <br>
+                <p>
+                I used all diligence to arrive at London and therefore I now gave my crew a certificate under my hand, of my free and willing return, without persuasion or force by any one or more of them.You will learn by studying and certificate, but you will not be a wise, wisdom is related to the spirit.   
+                </p>
+
+                <div class="comment-box">
+                      <h3>Leave a comment</h3>
+
+                      <form class="comment-form">
+                        <input type="text " placeholder="Enter Name"> 
+                        <input type="email" placeholder="Enter Email"> 
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                      </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+       </section>
+
+     <!-- footer -->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>We make lives better by producing leaders of society and equipping our people with leadership qualities so they can serve our communities at every level. <br>A well-designed website can serve as the hub of your nonprofit's online presence, helping you educate new supporters.</p>
+
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+     </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
